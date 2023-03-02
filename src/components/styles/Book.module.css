@@ -1,0 +1,35 @@
+.container {
+  background-color: white;
+  margin: 2rem 6rem;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: rgba(4, 102, 206, 0.171) 0 20px 30px -10px;
+}
+
+.container h1 {
+  margin-bottom: 0.8rem;
+}
+
+.container p {
+  margin-bottom: 1.5rem;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.buttons button {
+  background-color: transparent;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 14px;
+  color: gray;
+  border: 1px solid rgba(128, 128, 128, 0.548);
+}
+
+.buttons button:hover {
+  background-color: rgb(0, 132, 255);
+  color: white;
+}

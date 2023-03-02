@@ -1,11 +1,11 @@
-import React from "react";
-import { NavLink, Outlet } from "react-router-dom";
-import styles from "./styles/Navbar.module.css";
+import React from 'react';
+import { NavLink, Outlet } from 'react-router-dom';
+import styles from './styles/Navbar.module.css';
 
 const Navbar = () => {
-    const clickedStyle = ({ isActive }) => ({
-        color: isActive ? 'black' : '#a19e9e',
-      });
+  const clickedStyle = ({ isActive }) => ({
+    color: isActive ? 'black' : '#a19e9e',
+  });
 
   return (
     <>

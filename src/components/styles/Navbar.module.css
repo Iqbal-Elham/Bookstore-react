@@ -1,0 +1,30 @@
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    background-color: white;
+    padding: 2rem 6rem;
+    box-shadow: rgba(4, 101, 206, 0.548) 0 20px 30px -10px;
+}
+
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;
+    font-size: 26px;
+}
+
+.navbar h1{
+    font-size: 32px;
+    color: rgb(0, 132, 255);
+    
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #a19e9e;
+}

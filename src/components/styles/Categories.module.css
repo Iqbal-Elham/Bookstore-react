@@ -1,0 +1,9 @@
+.category button {
+    width: 80%;
+    background-color: rgb(0, 110, 255);
+    color: white;
+    margin: 5rem;
+    padding: 1rem;
+    font-size: 24px;
+    cursor: pointer;
+}

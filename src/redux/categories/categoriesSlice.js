@@ -1,19 +1,18 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
-    categories : [],
-}
+  categories: [],
+};
 
 export const categoriesSlice = createSlice({
-    name: 'categories',
-    initialState,
-    reducers : {
-        status: (state) => {
-            return 'Under Construction';
-        }
-    }
-})
+  name: 'categories',
+  initialState,
+  reducers: {
+    checkStatus: (state) => {
+      state.categories.push('Under Construction');
+    },
+  },
+});
 
+export const { checkStatus } = categoriesSlice.actions;
 export default categoriesSlice.reducer;
-export const { addBook } = categoriesSlice.actions;
-

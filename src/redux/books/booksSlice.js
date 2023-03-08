@@ -28,12 +28,15 @@ export const booksSlice = createSlice({
   name: 'books',
   initialState,
   reducers: {
-    addBook: (state, action) => {
-      state.allBooks.push(action.payload);
-    },
+    addBook: (state, action) => (
+      { ...state, allBooks: [...state.allBooks, action.payload] }
+    ),
     removeBook: (state, action) => {
-      /* eslint-disable no-param-reassign */
-      state.allBooks = state.allBooks.filter((book) => book.id !== action.payload);
+      const all = state.allBooks.filter((book) => book.id !== action.payload);
+      return {
+        ...state,
+        allBooks: all,
+      };
     },
   },
 });

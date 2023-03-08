@@ -5,14 +5,13 @@ import styles from './styles/Book.module.css';
 import { removeBook } from '../redux/books/booksSlice';
 
 const Book = ({
-  id, title, author, category,
+  id, title, author,
 }) => {
   const dispatch = useDispatch();
   return (
     <div className={styles.container}>
       <h1>{ title }</h1>
       <p>{ author }</p>
-      <p>{ category }</p>
       <div className={styles.buttons}>
         <button type="button">Comments</button>
         <button type="button">Edit</button>
@@ -30,7 +29,6 @@ Book.propTypes = {
   id: PropTypes.string,
   title: PropTypes.string.isRequired,
   author: PropTypes.string.isRequired,
-  category: PropTypes.string.isRequired,
 };
 
 export default Book;

@@ -35,9 +35,6 @@ export const booksSlice = createSlice({
       /* eslint-disable no-param-reassign */
       state.allBooks = state.allBooks.filter((book) => book.id !== action.payload);
     },
-    addBook: (state, action) => {
-      
-    }
   },
 });
 

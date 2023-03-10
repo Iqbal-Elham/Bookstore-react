@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import styles from './styles/Form.module.css';
-import { addBook } from '../redux/books/booksSlice';
+import { postBook, addBook } from '../redux/books/booksSlice';
 
 const { v4: uuidv4 } = require('uuid');
 
@@ -10,14 +10,16 @@ const Form = () => {
   const [title, setTitle] = useState('');
   const [author, setAuthor] = useState('');
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     const data = {
       id: uuidv4(),
       title,
       author,
+      category: '',
     };
     dispatch(addBook(data));
+    dispatch(postBook(data));
     setTitle('');
     setAuthor('');
   };

@@ -2,8 +2,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
 const baseUrl = 'https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi';
 
-// const key = 'VsRDlGcuDfqVocRsOBW9';
-const key = 'gaCDn1oGS1nyqaeyogKu';
+const key = 'VsRDlGcuDfqVocRsOBW9';
 const initialState = {
   allBooks: [],
   isLoading: false,

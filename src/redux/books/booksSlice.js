@@ -6,8 +6,6 @@ const key = 'VsRDlGcuDfqVocRsOBW9';
 const initialState = {
   allBooks: [],
   isLoading: false,
-  error: null,
-  message: '',
 };
 
 export const getBooks = createAsyncThunk('books/getBooks', async (name, thunkAPI) => {

@@ -1,6 +1,7 @@
 .container {
-  margin: 2rem 6rem;
+  margin: 2rem auto;
   border-radius: 10px;
+  width: 80%;
 }
 
 .container h2 {

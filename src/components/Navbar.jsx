@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink, Outlet } from 'react-router-dom';
+import { GoPerson } from 'react-icons/go';
 import styles from './styles/Navbar.module.css';
 
 const Navbar = () => {
@@ -21,7 +22,9 @@ const Navbar = () => {
             <NavLink style={clickedStyle} to="/categories">Categories</NavLink>
           </li>
         </ul>
-        <h1>icon</h1>
+        <div className={styles.userIconContainer}>
+          <GoPerson className={styles.userIcon} />
+        </div>
       </nav>
       <Outlet />
     </>

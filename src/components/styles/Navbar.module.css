@@ -24,5 +24,16 @@
 
 .navbar a {
   text-decoration: none;
-  color: #a19e9e;
+  color: #e8e8e8;
+}
+
+.userIconContainer{
+  border: 2px solid #e8e8e8;
+  border-radius: 100%;
+  padding: 0.5rem 0.6rem;
+}
+
+.userIcon{
+  color: rgb(0, 132, 255);
+  font-size: 22px;
 }

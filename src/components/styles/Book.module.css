@@ -1,35 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Roboto+Slab:wght@300;400;500&family=Roboto:wght@300;400;500;900&display=swap');
+
 .container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
   background-color: white;
-  margin: 2rem 6rem;
-  border-radius: 10px;
-  padding: 2rem;
+  margin: 2rem auto;
+  border-radius: 4px;
+  padding: 2rem 3rem;
   box-shadow: rgba(4, 102, 206, 0.171) 0 20px 30px -10px;
 }
 
-.container h1 {
+.bookInfo h1 {
+  font-family: 'Roboto Slab', serif;
   margin-bottom: 0.8rem;
 }
 
-.container p {
+.progress h2,
+p {
+  margin-bottom: 0.6rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.bookInfo p {
+  font-family: 'Roboto Slab', serif;
   margin-bottom: 1.5rem;
 }
 
 .buttons {
   display: flex;
-  gap: 1rem;
 }
 
 .buttons button {
   background-color: transparent;
+  font-family: 'Roboto Slab', serif;
   cursor: pointer;
-  padding: 10px;
+  padding: 0.3rem;
   font-size: 14px;
-  border-radius: 14px;
   color: gray;
-  border: 1px solid rgba(128, 128, 128, 0.548);
+  width: 110px;
+  border: none;
+  border-right: 2px solid gray;
+}
+
+.buttons :last-child {
+  border: none;
+}
+
+.updateProgress button {
+  background-color: #0290ff;
+  color: white;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0.3rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  margin-top: 1.3rem;
+  cursor: pointer;
 }
 
 .buttons button:hover {
-  background-color: rgb(0, 132, 255);
+  background-color: #0290ff;
   color: white;
+}
+
+.right {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10rem;
+}
+
+.progress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.line {
+  width: 0.125rem;
+  height: 4.375rem;
+  margin: 1.125rem 3.688rem 0 4.938rem;
+  border: solid 1px rgb(202, 199, 199);
 }

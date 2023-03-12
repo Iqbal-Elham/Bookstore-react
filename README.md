@@ -69,7 +69,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Coming Soon]()
+- You can find the live demo in [here](https://bookstore-qhr8.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

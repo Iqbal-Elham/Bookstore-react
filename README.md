@@ -134,7 +134,7 @@ Enter the follow code to run the project locally:
 👤 **Iqbal Elham**
 
 - GitHub: [@iqbal-elham](https://github.com/Iqbal-Elham)
-- linkedIn: [@iqbal-elham](https://www.linkedin.com/in/iqbal-elham-8830aa19a/)
+- linkedIn: [@iqbal-elham](https://www.linkedin.com/in/iqbal-elham)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

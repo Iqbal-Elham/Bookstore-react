@@ -39,7 +39,7 @@
 # 📖 [Bookstore] <a name="about-project"></a>
 
 
-**[Bookstore]** is a Single Page JavaScript project, using React and ES6 features, and modules that let users to Add books Edit and remove them.
+**[Bookstore]** is a Single Page JavaScript project, using React, Redux, and ES6 features, and modules that let users Add books Edit and remove them.
 
 ## 🛠 Built With <a name="built-with"></a>
 
